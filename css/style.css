@@ -251,12 +251,12 @@ header nav .icons a:hover{
 }
 @keyframes photo{
     0%{
-       transform: scale(0.1);
-       rotate: 180deg;
+       transform: scale(0);
+      /* rotate: 180deg;*/
     }
     100%{
         transform: scale(1);
-        rotate: 360deg;
+       /* rotate: 360deg;*/
     }
 }
 /*start about*/
