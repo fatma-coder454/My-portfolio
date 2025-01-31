@@ -10,23 +10,24 @@
     font-family: "Inter", serif;
 }
 :root{
- 
-  --main_color: #347ff8;
+--main_color: #347ff8;
     --p_color:#8a8a8a;
     --bg_color:#1f1f1f;
     --wihte_color:#fff;
     --black_color:#070707;
     --border_color:rgba(255,255,255, 0.1);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #131313;
 }
 
 .container{
-   width: 80%;
-   margin: auto;
-   max-width: 1500px;
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
 }
 img{
     width: 100%;
@@ -55,7 +56,7 @@ p{
 }
 /*btns*/
 .btns{
-     display: flex;
+    display: flex;
     align-items: center;
     gap: 20px;
 }
@@ -76,8 +77,8 @@ p{
     text-transform: capitalize;
     border-bottom: 1.5px solid var(--wihte_color);
     transition: 0.3s;
-   padding-bottom: 5px;
-   font-size: 18px;
+    padding-bottom: 5px;
+    font-size: 18px;
 }
 .btn-no-bg:hover{
     color: var(--main_color);
@@ -88,13 +89,13 @@ section{
 }
 /*background lines*/
 .bg-lins span{
-  position: fixed;
-  top: 0;
-  z-index: -1;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.05) ;
-  width: 1px;
-  animation: left-right 18s infinite;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05) ;
+    width: 1px;
+    animation: left-right 18s infinite;
 }
 @keyframes left-right{
     0%,100%{
@@ -155,9 +156,9 @@ header nav .logo{
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 1px;
-  /*  text-shadow: 1px 1px 1px rgb(83, 158, 238);*/
-  /* background: linear-gradient(90deg, #04b7f3, #f4f4ee);*/
- /* background: linear-gradient(90deg, #347ff8, #FFFFFF);*/
+/*  text-shadow: 1px 1px 1px rgb(83, 158, 238);*/
+/* background: linear-gradient(90deg, #04b7f3, #f4f4ee);*/
+/* background: linear-gradient(90deg, #347ff8, #FFFFFF);*/
     color: var(--main_color);
     /*-webkit-background-clip: text;
     color: transparent;*/
@@ -172,7 +173,7 @@ header nav .links a{
     color: var(--wihte_color);
     text-transform: capitalize;
     font-size: 18px;
-   transition: 0.3s;
+    transition: 0.3s;
 }
 header nav .links a:hover{
     color: var(--main_color);
