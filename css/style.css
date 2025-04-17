@@ -239,25 +239,25 @@ header nav .icons a:hover{
 }
 .photo{
     width: 350px;
-   /* position: absolute;
+    /* position: absolute;
     top: 25%;*/
     border-radius: 50%;
     object-fit: fill;
     object-position: 0 20%;
     box-shadow: 0 0 20px rgba(0, 123, 255, 0.8),
-     0 0 40px rgba(0, 123, 255, 0.6), 0 0 60px rgba(0, 123, 255, 0.4);
+         0 0 40px rgba(0, 123, 255, 0.6), 0 0 60px rgba(0, 123, 255, 0.4);
     animation-name: photo;
     animation-duration: 2s;
     margin-left: 3%;
 }
 @keyframes photo{
     0%{
-       transform: scale(0);
-      /* rotate: 180deg;*/
+        transform: scale(0);
+        /* rotate: 180deg;*/
     }
     100%{
         transform: scale(1);
-       /* rotate: 360deg;*/
+        /* rotate: 360deg;*/
     }
 }
 /*start about*/
